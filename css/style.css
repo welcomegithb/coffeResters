@@ -322,3 +322,61 @@ a {
 	line-height: 1.5;
 	font-weight: 400;
 }
+
+/* INDEX_COLLACTION */
+
+.index-collaction__inner {
+	position: relative;
+	background-color: var(--darkgold-bg);
+	background-image: url(../img/index-collaction-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 420px;
+}
+
+.index-collaction__info {
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 518px;
+	width: 100%;
+	text-align: center;
+	color: var(--white-color);
+	margin-bottom: 80px;
+}
+
+.index-collaction__list {
+	position: absolute;
+	display: flex;
+	padding: 0;
+}
+
+.index-collaction__item:nth-child(1) {
+	position: relative;
+}
+
+.index-collaction__item-logo {
+	position: absolute;
+	left: -64px;
+	top: -68px;
+}
+
+.index-collaction__item:not(:last-child) {
+	margin-right: 22px;
+}
+
+.index-collaction__img {
+	width: 433px;
+	height: 500px;
+	object-fit: cover;
+	margin-bottom: 28px;
+}
+
+.index-collaction__item-title {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
