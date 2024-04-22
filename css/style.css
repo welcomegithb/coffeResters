@@ -340,6 +340,7 @@ a {
 	background-size: cover;
 	padding-top: 50px;
 	padding-bottom: 420px;
+	
 }
 
 .index-collaction__info {
@@ -356,12 +357,19 @@ a {
 .index-collaction__list {
 	position: absolute;
 	display: flex;
+	justify-content: space-between;
 	padding: 0;
-	margin-left: -10px;
+	margin: 0;
+
 }
 
 .index-collaction__item:nth-child(1) {
 	position: relative;
+}
+
+.index-collaction__item {
+	width: 433px;
+	height: 500px;
 }
 
 .index-collaction__item-logo {
@@ -538,7 +546,7 @@ a {
 .our-comitment__inner {
 	position: relative;
 	padding: 160px 64px 200px 165px;
-	background-image: url(../img/our-commitment-bg.jpg);
+	background-image: url(../img/Rectangle.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -572,7 +580,6 @@ a {
 }
 
 .uncompromising-quality__inner {
-	background-image: url(../img/uncopromising-quality-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
